@@ -1,6 +1,9 @@
 // Update with your config settings.
 
 module.exports = {
+  production: {
+    connection: process.env.CLEARDB_DATABASE_URL
+  },
   development: {
     client: 'mysql',
     connection: {
