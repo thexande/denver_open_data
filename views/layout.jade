@@ -6,12 +6,12 @@ html
     link(href='/stylesheets/materialize.css', type='text/css', rel='stylesheet', media='screen,projection')
     link(href='/stylesheets/style.css', type='text/css', rel='stylesheet', media='screen,projection')
   body
-    nav.white(role='navigation')
+    nav#navbar(role='navigation')
       .nav-wrapper.container
-        a#logo-container.brand-logo(href='#') Denver Charts
+        a#logo-container.nav_text.brand-logo(href='#') Denver Charts
         ul.right.hide-on-med-and-down
           li
-            a(href='#') Navbar Link
+            a.nav_text(href='/charts/property') Property Data
         ul#nav-mobile.side-nav
           li
             a(href='#') Navbar Link
